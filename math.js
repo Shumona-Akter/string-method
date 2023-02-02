@@ -1,0 +1,30 @@
+const number = Math.pow(3, 6);
+console.log(number);
+
+// Math.abs() this ignore pluse or minus or negetive values
+const khushisMoney = 200;
+const jannatMoney = 1000;
+
+const differentMoney = Math.abs(khushisMoney - jannatMoney);
+if(differentMoney <= 200){
+    console.log("They are best friends😍")
+}
+else{
+    console.log("They was best friend ❤️❤️")
+}
+
+const myMarks = 50;
+const khusisMarks =80;
+const marksDif = Math.abs(myMarks - khusisMarks);
+if (marksDif <= 5){
+    console.log("We are friends 🤗🤗")
+}
+else{
+    console.log("otherwise we are also friend😘😘")
+}
+
+// Math.round() its creat a integer number of their nearest number.
+
+const myNum = 3.87;
+const myRoundNum = Math.round(myNum)
+console.log(myRoundNum)
