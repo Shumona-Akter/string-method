@@ -47,4 +47,21 @@ const totalPrice =  alu + piyaj + capsikum + rorun;
 
 const totalPersInt = totalPrice.toFixed(2);
 const totalCeilling = Math.ceil(totalPersInt)
-console.log(totalCeilling)
+console.log(totalCeilling);
+const totalFloorlling = Math.floor(totalPersInt)
+
+console.log(totalFloorlling);
+// Math.random creat a value 0 to 1
+const random = Math.random();
+console.log(random);
+
+for(let i = 1; i <= 20; i++){
+    const random =  Math.round(Math.random()*6);
+    console.log(random)
+}
+
+
+for (let i = 0; i < 100; i++){
+    const random = Math.round(Math.random()*100);
+    console.log(random);
+}
