@@ -27,4 +27,24 @@ else{
 
 const myNum = 3.87;
 const myRoundNum = Math.round(myNum)
-console.log(myRoundNum)
+console.log(myRoundNum);
+
+const myFriNum = 3.27;
+const myFriRoundNum = Math.round(myFriNum)
+console.log(myFriRoundNum);
+
+// Math.ceil() its creat a number for nearest upper integer number
+const potato = 34.0958;
+const potatoceilling = Math.ceil(potato);
+console.log(potatoceilling);
+
+const alu = 20.649;
+const piyaj = 30.756;
+const capsikum = 25.2294;
+const rorun = 43.3333;
+
+const totalPrice =  alu + piyaj + capsikum + rorun;
+
+const totalPersInt = totalPrice.toFixed(2);
+const totalCeilling = Math.ceil(totalPersInt)
+console.log(totalCeilling)
